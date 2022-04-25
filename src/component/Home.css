@@ -1,0 +1,21 @@
+h1 {
+    position: absolute;
+    width: 495px;
+    height: 311px;
+    left: 115px;
+    top: 200px;
+    
+    font-family: 'Sacramento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 230px;
+    line-height: 336px;
+    
+    color: #FFA114;
+}
+
+.homepage {
+    color:
+     red;
+    /* url("../../assets/pexels-nadim-shaikh-7758253\ 1.png"); */
+}
