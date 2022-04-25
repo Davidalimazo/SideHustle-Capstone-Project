@@ -1,12 +1,17 @@
+import { render } from "@testing-library/react";
 import React from "react";
 import "./Home.css";
-import background from "../assets/pexels-nadim-shaikh-77582531.png"
 
 
 function Home() {
   return (
-    <div style={{backgroundImage: `url(${background})`}}>
-      <h1 className='tastyText' >Tasty</h1>
+    <div className="homepage">
+      <h1 className='tastyText' >Tasty </h1>
+      <p className="tastyBody">THE BEST RESTAURANT IN TOWN</p>
+      <div className="buttons">
+      <button className="menuButton">OUR MENU</button>
+      <button className="contactButton">CONTACT US</button>
+      </div>
     </div>
   )
 }
