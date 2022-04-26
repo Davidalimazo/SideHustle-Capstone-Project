@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "./Navbar";
 import "./Contact.css";
 import Button from "./Button";
 
 function Contact() {
   return (
     <div className="contact_div">
-      <Navbar />
       <div className="col-12 content_div">
         <div className="col-6 col-xs-12">
           <p className="p_contact">Contact Us:</p>
