@@ -11,10 +11,11 @@ function Navbar() {
         <input type="checkbox" name="chk" id="chk" />
         <label htmlFor='chk' className="show"><i className="fa fa-bars"></i> </label>
            <div className="menu">
-            <NavLink to="/home" className="menu-item na">Home</NavLink>
-            <NavLink to="/product" className="menu-item na">Product</NavLink>
+            <NavLink to="/" className="menu-item na">Home</NavLink>
+            <NavLink to="about" className="menu-item na">About Us</NavLink>
+            <NavLink to="/menu" className="menu-item na">Menu</NavLink>
             <NavLink to="contact" className="menu-item na">Contact</NavLink>
-            <NavLink to="about" className="menu-item na">About</NavLink>
+        
             <label htmlFor='chk' className="na hide"><i className="fa fa-times"></i> </label>
             
            </div>

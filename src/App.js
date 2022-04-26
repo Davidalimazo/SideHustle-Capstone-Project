@@ -15,12 +15,12 @@ function App() {
   return (
   <Router>
     <div className="App">
-    <Navbar />
+   
     <Switch>
-    <Route exact path='/home'>
+    <Route exact path='/'>
     <Home />
     </Route>
-    <Route exact path='/product'>
+    <Route exact path='/menu'>
     <Product />
     </Route>
     <Route exact path='/contact'>
