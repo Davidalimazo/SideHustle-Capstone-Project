@@ -10,7 +10,7 @@ function Home() {
       <h1 className='tastyText' >Tasty </h1>
       <p className="tastyBody">THE BEST RESTAURANT IN TOWN</p>
       <div className="buttons">
-      <Link to="/menu">
+      <Link to="/product">
       <button className="menuButton">OUR MENU</button>
       </Link>
       <Link to="/contact">

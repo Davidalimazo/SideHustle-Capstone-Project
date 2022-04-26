@@ -46,6 +46,7 @@
     height: 100%;
     border-bottom: 3px solid transparent;
   }
+  
   .fa-code {
     margin-left: 1rem;
   }
@@ -63,6 +64,7 @@
     background: transparent;
     transition: width 0.7s ease, background-color 0.5s ease;
   }
+  
   
   .nav-item:hover:after {
     width: 100%;
