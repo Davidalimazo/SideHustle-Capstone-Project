@@ -11,7 +11,6 @@ import Footer from "./component/Footer";
 
 function App() {
   return (
-<<<<<<< HEAD
   <Router>
     <div className="App">
    
@@ -31,27 +30,6 @@ function App() {
     </Switch>
     <Footer />
     </div>
-=======
-    <Router>
-      <div className="App">
-        <Navbar />
-        <Switch>
-          <Route exact path="/home">
-            <Home />
-          </Route>
-          <Route exact path="/product">
-            <Product />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-        </Switch>
-        {/* <Footer /> */}
-      </div>
->>>>>>> 9c64e83640e6f7520a2f28596b6732eb148aa83f
     </Router>
   );
 }
