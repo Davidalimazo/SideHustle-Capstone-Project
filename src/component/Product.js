@@ -1,84 +1,62 @@
-import salmon from './Assets/salmon.jpeg';
-import jollof from './Assets/jollof.jpg';
-import burger from './Assets/burger.jpg';
-import soup from './Assets/soup.jpeg';
-import spaghetti from './Assets/Spaghetti.jpeg';
-import sandwich from './Assets/Sandwich.jpeg';
-import chicken from './Assets/chicken.jpeg';
-import './Product.css';
+
+import React from 'react'
+import './Product.css'
+
+import Friedrice from '../Images/friedrice.jpg'
+import Chicken from '../Images/chicken.jpg'
+import Jollofrice from '../Images/Jollof_Rice.jpg'
+import Amala from '../Images/Amala.jpg'
+import Egusi from '../Images/egusi.jpg'
+import turkey from '../Images/turkey.jpg'
 
 
- function App() {
-     return (
-          <>
-  <div class="menu">
-          <div class="headertop">
-              <h3>Our Menu:</h3>
-          </div>
-          <div class="food-items">
-             <img src={jollof}/>
-             <div class="details">
-             <div class="details-sub">
-              <h5>Nigerian Jollof Rice</h5>
-              <h5 class="price">N1000</h5>
-            </div>
-             </div>
-          </div>
+function Product() {
+  
+  return (
+    <div className=' container product'>
+      <h1 className='pro-header'>Our Menu:</h1>
+      <div className='container'>
+    <div className='row'>
+      <div className='col-md-4 prod-body' >
+        <img src={Friedrice}  className='product-img' alt='product-images'/>
+        <h3 className='text-center'>Nigerian Fried Rice</h3>
+        <p className='text-center'> N1500 </p>
+        
+      </div>
+      <div className='col-md-4 prod-body'>
+        <img src={Chicken}  className='product-img' alt='product-images'/>
+        <h3 className='text-center'>Fried Chicken</h3>
+        <p className='text-center'> N1200 </p>
 
-          <div class="food-items">
-             <img src={salmon}/>
-             <div class="details">
-             <div class="details-sub">
-              <h5>Grilled Salmon</h5>
-              <h5 class="price">N3000</h5>
-            </div>
-             </div>
-          </div>
+      </div>
+      <div className='col-md-4 prod-body'>
+        <img src={Jollofrice}  className='product-img' alt='product-images'/>
+        <h3 className='text-center'>Nigerian Jollof Rice</h3>
+        <p className='text-center'> N1500 </p>
 
-          <div class="food-items">
-             <img src={sandwich}/>
-             <div class="details">
-             <div class="details-sub">
-              <h5>BBQ sandwich</h5>
-              <h5 class="price">N1000</h5>
-            </div>
-             </div>
-          </div>
+      </div>
+      <div className='col-md-4 prod-body'>
+        <img src={Amala}  className='product-img' alt='product-images'/>
+        <h3 className='text-center'>Amala</h3>
+        <p className='text-center'> N500 </p>
 
-          <div class="food-items">
-             <img src={chicken}/>
-             <div class="details">
-             <div class="details-sub">
-              <h5>Grilled Chicken</h5>
-              <h5 class="price">N1000</h5>
-            </div>
-             </div>
-          </div>
+      </div>
+      <div className='col-md-4 prod-body'>
+        <img src={Egusi}  className='product-img' alt='product-images'/>
+        <h3 className='text-center'>Egusi and Meat</h3>
+        <p className='text-center'> N1000 </p>
 
-          <div class="food-items">
-             <img src={soup}/>
-             <div class="details">
-             <div class="details-sub">
-              <h5>Soup</h5>
-              <h5 class="price">N1000</h5>
-            </div>
-             </div>
-          </div>
+      </div>
+      <div className='col-md-4 prod-body'>
+        <img src={turkey}  className='product-img' alt='product-images'/>
+        <h3 className='text-center'>Fried Turkey</h3>
+        <p className='text-center'> N1500 </p>
 
-          <div class="food-items">
-             <img src={spaghetti}/>
-             <div class="details">
-             <div class="details-sub">
-              <h5>Spaghetti</h5>
-              <h5 class="price">N2000</h5>
-            </div>
-             </div>
-          </div>
-  </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  )
+  }
 
-      </>
-
-   );
-}
-
-export default App;
+export default Product;
