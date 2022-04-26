@@ -13,7 +13,7 @@ function Product() {
   
   return (
 
-            <div class="container">
+            <div class="container product-page">
                 <div class="intro">
                     <h2 class="text-center">OUR MENU</h2>
                 </div>

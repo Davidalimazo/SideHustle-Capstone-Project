@@ -1,24 +1,15 @@
 .tastyText {
-  position: absolute;
-  width: 495px;
-  height: 311px;
-  left: 115px;
-  top: 120px;
   font-family: 'Sacramento';
   font-style: normal;
   font-weight: 400;
   font-size: 150px;
-  line-height: 336px;
-
+  line-height: 296px;
   color: #ffa114;
+  margin-left: 15px;
 }
 
 .tastyBody {
-  position: absolute;
-  width: 641px;
   height: 84px;
-  left: 140px;
-  top: 385px;
   font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -26,19 +17,14 @@
   line-height: 67px;
   font-variant: small-caps;
   color: #ffffff;
+  margin-left: 15px;
 }
 
 .menuButton {
   background-color: rgba(255, 255, 255, 0);
-  position: absolute;
-  height: 100px;
-  top: 480px;
   border: 5px solid #ffa114;
   box-sizing: border-box;
   border-radius: 10px;
-  position: absolute;
-  width: 245px;
-  left: 130px;
   font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -46,14 +32,11 @@
   line-height: 67px;
   font-variant: small-caps;
   color: #ffa114;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .contactButton {
-  position: absolute;
-  width: 245px;
-  height: 100px;
-  left: 400px;
-  top: 480px;
   background: #ffa114;
   border-radius: 10px;
   font-family: sans-serif;
@@ -68,4 +51,30 @@
 div.homepage {
   background: url("../assets/homeImage.png") no-repeat center center fixed;
   height: 100vh;
+}
+@media{
+  .homepage {
+    width: 100%;
+  }
+  .tastyText {
+    font-family: 'Sacramento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 296px;
+    color: #ffa114;
+    margin-left: 15px;
+  }
+  
+  .tastyBody {
+    margin-left: 15px;
+  }
+  
+  .menuButton {
+    margin-left: 15px;
+  }
+  
+  .contactButton {
+    margin-left: 15px;
+  }
 }

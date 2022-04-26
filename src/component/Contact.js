@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Contact() {
   return (
-    <div className="contact_div">
+    <div className="contact_div" id="contact_div">
       <div className="col-12 content_div">
         <div className="col-6 col-xs-12">
           <p className="p_contact">Contact Us:</p>
