@@ -48,6 +48,11 @@
   color: #ffa114;
 }
 
+.menuButton:hover {
+  width: 255px;
+  top: 470px;
+}
+
 .contactButton {
   position: absolute;
   width: 245px;
@@ -62,8 +67,20 @@
   font-size: 30px;
   line-height: 67px;
   font-variant: small-caps;
-  color: #000000;
+  /* color: #000000; */
+  color: rgba(0, 0, 0, 0.5);
 }
+
+.contactButton:hover {
+  width: 255px;
+  top: 470px;
+  border: 5px solid #ffa114;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffa114;
+}
+
 
 div.homepage {
   background: url("../assets/homeImage.png") no-repeat center center fixed;
