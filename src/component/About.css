@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
 .about{
   background-color:rgb(22, 16, 16);
   margin-top:0%;
@@ -11,7 +14,7 @@
   top: 130px;
   color: #FFA114;
   font-size: 60px;
-  font-family: 'Sacramento';
+font-family: 'Sacramento';  
   font-style:italic;
 }
 .image{

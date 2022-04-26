@@ -1,94 +1,123 @@
-.header{
-    height: 70px;
-    padding: 0 20px;
-    background: #000;
-}
-.logo{
-    float: left;
-    line-height: 70px;
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.navbar {
+    background-color: #000;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    font-family: 'Sacramento', cursive;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    max-width: 1500px;
+  }
+  
+  .nav-logo {
+    color: #f5b921;
+    align-items: center;
+    margin-left: 20px;
     cursor: pointer;
-    font-weight: bold;
-    font-size: 27px;
-    color: #ffc000;
-    
-}
-.menu{
-    float: right;
-    line-height: 70px;
-    text-align: left;
-}
-.na{
-    margin-right: 15px;
-}
-na:last-child{
-    margin-right: 0;
-}
-.menu-item{
     text-decoration: none;
-    color: white;
-    font-size:25px;
-    font-weight:bold;
-    margin-right:25px;
-}
-.menu-item:hover{
-    color:  #ffc000;
-}
-.menu-item:last-child{
-    margin-right:0;
-}
-.show{
-    float: right;
-    line-height: 70px;
-}
-.show, .hide{
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+    font-size: 2rem;
+    flex-grow: 1;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
+  .nav-links {
+    font-size: 1.6rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+  }
+  .fa-code {
+    margin-left: 1rem;
+  }
+  
+  .nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+  }
+  
+  .nav-item:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+    background: #ffdd40;
+  }
+  
+  .nav-item .active {
+    color: #ffdd40;
+    border: 1px solid #ffdd40;
+  }
+  
+  .nav-icon {
     display: none;
-    cursor: pointer;
-}
-#chk{
-    visibility: hidden;
-    z-index: -11111;
-}
-@media(max-width:768px){
-    .show, .hide{
-       display: block;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1pxsolid #fff;
+      position: absolute;
+      top: 80px;
+      left: -110%;
+      opacity: 1;
+      transition: all 0.5s ease;
     }
-    .menu{
-        position: fixed;
-        top: 0;
-        right: 100%;
-        height: 100vh;
-        width: 100vw;
-        background: #000;
-        z-index: 11111;
-        line-height: normal;
-        text-align: center;
-        transition: 0.5s;
+  
+    .nav-menu.active {
+      background: #030c0d;
+      left: 0px;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
     }
-    .menu .na{
-        display: block;
-        margin-bottom: 30px;
-        transition: 0.3s;
+    .nav-item .active {
+      color: #ffdd40;
+      border: none;
     }
-    
-    .menu .na:first-child{
-        margin-top: 50px;
+    .nav-links {
+      padding: 1.5rem;
+      width: 100%;
+      display: table;
     }
-    .hide{
-        position: absolute;
-        top: 24px;
-        right: 10px;
+  
+    .nav-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: #ffdd40;
     }
-    .hide:hover{
-        color: crimson;
-     }
-     #chk{
-         visibility: hidden;
-         z-index: -11111;
-     }
-     #chk:checked~ .menu{
-        right: 0;
-    }
-}
+  }
+  
