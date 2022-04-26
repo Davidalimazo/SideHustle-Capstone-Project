@@ -1,71 +1,20 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  body{
-    background-color: rgb(39, 39, 39);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .menu{
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(350px,1fr));
-    grid-gap: 20px 40px;
-  }
-  .headertop{
-    font-family: 'Sacramento', cursive;
-    color:goldenrod;
-    padding: 25px 0 0 0;
-    padding-left: 50px;
-    grid-column: 1/-1;
-  }
-  
-  .headertop>h3{
-    font-weight: 500;
-    font-size: 70px;
-  }
-  .food-items{
-    display: grid;
-    position: relative;
-    grid-template-rows: auto 1fr;
-    border-radius: 15px;
-    margin: 2px 50px;
-  }
-  .food-items img{
-    border: black 2px solid;
-    position: relative;
-    width: 70%;
-    margin-left: 40px;
-    border-radius: 15px;
-  }
-  
-  .details{
-    max-height: 150px;
-    padding: 20px 20px;
-    display: grid;
-    grid-template-rows: auto 1fr 50px;
-    grid-row-gap: 15px;
-  }
-  .details-sub{
-    color: white;
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  .details-sub>h5{
-    font-weight: 600;
-    font-size: 18px;
-  }
-  .price{
-    color: gold;
-    text-align: right;
-    padding-right: 20px;
-  }
-  .details>p{
-    justify-content: center;
-    color: #bebebe;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 400;
-    align-self: stretch;
-  }
+img{
+    width: 100%;
+}
+.learn-more, .description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item{
+    margin: 10px 0;
+    padding: 5px;
+}
+.item:hover{
+    border: 1px solid #1f5156;
+    padding: 5px;
+}
+.intro .text-center{
+    margin: 10px 0;
+    border-bottom: 1px solid #1f5156;
+}

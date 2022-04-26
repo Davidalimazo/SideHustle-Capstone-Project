@@ -1,11 +1,15 @@
 import React from "react";
 import "./About.css";
+import Sandwich from './Assets/Sandwich.jpeg'
 function About() {
   return (
     <div className="about">
       <div className="name">About Tasty</div>
       <div className="image">
         <img src="/Profile.png" alt="" />
+      </div>
+      <div className="img-h">
+        <img src={Sandwich} alt="" />
       </div>
       <p className="abt">
         Lorem Ipsum is simply dummy text of the printing and typesetting

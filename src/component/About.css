@@ -5,7 +5,6 @@
 .about{
   background-color:rgb(22, 16, 16);
   margin-top:0%;
-  width:auto;
   height: 980px;
   margin-bottom:0%;
 }
@@ -26,11 +25,19 @@ font-family: 'Sacramento';
   width: 30px;
   
 }
+.img-h{
+  position: absolute;
+  left: 10px;
+  top: 220px;
+  border-image-outset: 00.5s;
+  width: 580px;
+  height: 800px; 
+}
   
 
 .abt{
 position: absolute;
-left: 600px;
+left: 620px;
 top: 251px;
 width: 651px;
 font-family: 'Segoe UI';
