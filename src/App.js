@@ -11,6 +11,7 @@ import Footer from "./component/Footer";
 
 function App() {
   return (
+<<<<<<< HEAD
     <Router>
       <div className="App">
         <Navbar />
@@ -30,6 +31,27 @@ function App() {
         </Switch>
         {/* <Footer /> */}
       </div>
+=======
+  <Router>
+    <div className="App">
+   
+    <Switch>
+    <Route exact path='/'>
+    <Home />
+    </Route>
+    <Route exact path='/menu'>
+    <Product />
+    </Route>
+    <Route exact path='/contact'>
+    <Contact />
+    </Route>
+    <Route exact path='/about'>
+    <About />
+    </Route>
+    </Switch>
+    <Footer />
+    </div>
+>>>>>>> 6dd3ab921d7aeebc46853ef787157e9b4b695a94
     </Router>
   );
 }

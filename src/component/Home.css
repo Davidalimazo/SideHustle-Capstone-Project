@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .tastyText {
   position: absolute;
   width: 495px;
@@ -69,3 +70,49 @@ div.homepage {
   background: url("../assets/homeImage.png") no-repeat center center fixed;
   height: 100vh;
 }
+=======
+.home_div { 
+    background: url(../Images/Background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+  }
+  .home_body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 150px 0 0 80px ;
+  }
+  .p_home {
+    font-size: 150px;
+    color: #FFA114;
+    line-height: 120px;
+    font-family: 'Sacramento', cursive;
+    letter-spacing: 5px;
+  }
+  .sub_p {
+      margin-block-start: 3rem;
+      text-transform: uppercase;
+      line-height: 40px;
+      font-size: 23px;
+      font-weight: 550;
+      color: white;
+      font-variant: small-caps;
+  }
+  @media only screen and (max-width:530px) {
+    .p_home {
+      font-size: 100px;
+      line-height: 60px;
+    }
+    .home_body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 0 0 0;
+      flex-direction: column;
+    }
+    .sub_p {
+      font-size: 17px;
+    }
+  }
+>>>>>>> 6dd3ab921d7aeebc46853ef787157e9b4b695a94

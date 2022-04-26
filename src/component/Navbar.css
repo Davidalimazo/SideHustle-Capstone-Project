@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 .navbar {
@@ -76,6 +77,58 @@
   }
   
   .nav-icon {
+=======
+.header{
+    height: 90px;
+    padding: 0 40px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.logo{
+    float: left;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFA114;
+    line-height: 85px;
+    font-family: 'Sacramento', cursive;
+    letter-spacing: 5px;
+}
+.menu{
+    float: right;
+    padding-top: 10px;
+    line-height: 70px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.na{
+    margin-right: 15px;
+}
+na:last-child{
+    margin-right: 0;
+}
+.menu-item{
+    text-decoration: none;
+    color: white;
+    font-size:23px;
+    font-weight: 550;
+    margin-right:25px;
+}
+.menu-item:hover{
+    color:  #FFA114;
+}
+.menu-item:last-child{
+    margin-right:0;
+}
+.show{
+    float: right;
+    line-height: 70px;
+}
+.show, .hide{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+>>>>>>> 6dd3ab921d7aeebc46853ef787157e9b4b695a94
     display: none;
   }
   
